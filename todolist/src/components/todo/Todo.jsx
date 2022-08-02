@@ -19,6 +19,7 @@ function Todo(props){
       return x
     })
     props.setTodo(copy)
+    console.log(copy)
   }
 
   return(
